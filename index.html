@@ -3,6 +3,11 @@
   <head>
     <title>Duc Dao</title>
 
+    <!-- Prebuilt Material Theme --> 
+    <link href="./node_modules/@angular/material/prebuilt-themes/indigo-pink.css" rel="stylesheet">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- 1. Load libraries -->
     <!-- IE required polyfills, in this exact order -->
     <script src="node_modules/es6-shim/es6-shim.min.js"></script>
@@ -21,7 +26,10 @@
             format: 'register',
             defaultExtension: 'js'
           }
-        }
+        },
+	map: {
+	   '@angular/material': 'npm:@angular/material/bundles/material.umd.js'
+	}
       });
       System.import('app/boot')
             .then(null, console.error.bind(console));
