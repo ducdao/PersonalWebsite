@@ -36,22 +36,22 @@
 10 verbose parsed url   path: 'angular/animations',
 10 verbose parsed url   href: 'angular/animations' }
 11 silly lockFile da0a9505-angular-animations angular/animations
-12 verbose lock angular/animations /root/.npm/da0a9505-angular-animations.lock
+12 verbose lock angular/animations /home/dldao/.npm/da0a9505-angular-animations.lock
 13 info maybeGithub Attempting angular/animations from git://github.com/angular/animations
 14 silly lockFile a8879461-it-github-com-angular-animations git://github.com/angular/animations
-15 verbose lock git://github.com/angular/animations /root/.npm/a8879461-it-github-com-angular-animations.lock
+15 verbose lock git://github.com/angular/animations /home/dldao/.npm/a8879461-it-github-com-angular-animations.lock
 16 verbose addRemoteGit [ 'git://github.com/angular/animations', 'master' ]
-17 verbose git clone git://github.com/angular/animations Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-animations-a8879461'...
+17 verbose git clone git://github.com/angular/animations Cloning into bare repository '/home/dldao/.npm/_git-remotes/git-github-com-angular-animations-a8879461'...
 17 verbose git clone git://github.com/angular/animations fatal: remote error:
 17 verbose git clone git://github.com/angular/animations   Repository not found.
 18 silly lockFile a8879461-it-github-com-angular-animations git://github.com/angular/animations
 19 silly lockFile a8879461-it-github-com-angular-animations git://github.com/angular/animations
 20 info maybeGithub Attempting angular/animations from git+ssh://git@github.com:angular/animations
 21 silly lockFile 605f0f48-it-github-com-angular-animations git+ssh://git@github.com:angular/animations
-22 verbose lock git+ssh://git@github.com:angular/animations /root/.npm/605f0f48-it-github-com-angular-animations.lock
+22 verbose lock git+ssh://git@github.com:angular/animations /home/dldao/.npm/605f0f48-it-github-com-angular-animations.lock
 23 verbose addRemoteGit [ 'git@github.com:angular/animations', 'master' ]
-24 error git clone git@github.com:angular/animations Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-animations-4cef41ee'...
-24 error git clone git@github.com:angular/animations Permission denied (publickey).
+24 error git clone git@github.com:angular/animations Cloning into bare repository '/home/dldao/.npm/_git-remotes/git-github-com-angular-animations-4cef41ee'...
+24 error git clone git@github.com:angular/animations ERROR: Repository not found.
 24 error git clone git@github.com:angular/animations fatal: Could not read from remote repository.
 24 error git clone git@github.com:angular/animations
 24 error git clone git@github.com:angular/animations Please make sure you have the correct access rights
@@ -67,7 +67,7 @@
 30 error     <npm-@googlegroups.com>
 31 error System Linux 3.14.0
 32 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "--save" "@angular/animations"
-33 error cwd /home/dldao/AngularDuc/angular2-seed/app
+33 error cwd /home/dldao/AngularDuc/angular2/angular2
 34 error node -v v0.10.25
 35 error npm -v 1.3.10
 36 error path angular/animations
